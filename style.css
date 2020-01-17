@@ -1,0 +1,70 @@
+.contenair {
+    width: 415px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    justify-content: center
+    
+}
+.bloc_1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.image1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 90px ;
+    border-radius: 200px;
+    border-color: gray;
+    border: gray solid ;
+   
+    
+}
+h1 {
+    margin-left:80px ;
+    color: red;
+
+}
+h3 {
+    margin-left: 110px;
+}
+  
+input {
+    border-radius: 10px;
+    background-color: red;
+    margin-left: 125px;
+}
+
+
+}
+.partie1_2{
+    margin-block: center;
+}
+ul {
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+    margin-left: 10px;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.bloc_2 {
+    margin-left: 10px;
+}
+i::before{
+    font-size: 5Opx;
+    padding: 15px;
+}
+
+body {
+    background-color: rgba(10, 10, 10, 0.3)
+}
