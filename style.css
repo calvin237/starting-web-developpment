@@ -1,21 +1,43 @@
 .contenair {
-    width: 415px;
-    height: fit-content;
+
+   min-width: 100%;
+   flex-direction: column;
     display: flex;
     flex-wrap: wrap;
     flex-grow: initial;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    
     
 }
+/*partie 1*/
 .bloc_1 {
+    width: 450px;
     background-color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
+    
+}
+.partie1_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+}
+.partie1H {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    
+    
+
 }
 .image1 {
     width: 200px;
     height: 200px;
-    margin-left: 90px ;
+   
     border-radius: 200px;
     border-color: gray;
     border: gray solid ;
@@ -31,40 +53,91 @@ h3 {
     margin-left: 110px;
 }
   
-input {
+.bouton {
+    width: 100px;
+    height: 15px;
+    color: white;
     border-radius: 10px;
     background-color: red;
     margin-left: 125px;
+    align-items: center;
 }
 
 
-}
+
+/*partie 2*/
 .partie1_2{
     margin-block: center;
 }
-ul {
-    height: 100px;
-    width: 400px;
-    margin: 10px;
-    margin-left: 10px;
+.bloc_2 {
+    height: 150px;
+    width: 450px;
+    
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: white;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    flex-grow: initial;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    border-radius: 5px;
+
     
     
 }
+.bloc_2_1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px;
+}
+
 .bloc_2 {
     margin-left: 10px;
 }
-i::before{
-    font-size: 5Opx;
-    padding: 15px;
-}
+
 
 body {
-    background-color: rgba(10, 10, 10, 0.3)
+    background-color: rgba(10, 10, 10, 0.3);
+    align-items: center;
+}
+
+/*partie 3*/
+.bloc_3 {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.bloc_3_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bloc_3_all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+
+
+}
+.bloc_3_right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.img2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
 }
